@@ -26,3 +26,8 @@ export default Home;
 
 // make an api call to display info
 // `https://dog.ceo/api/breeds/image/random`
+
+
+
+
+// make it work
