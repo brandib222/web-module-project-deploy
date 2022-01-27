@@ -16,7 +16,7 @@ function Home (props) {
 
     return (
         <div className='container'>
-             <h1>Refresh for New Dog </h1>
+             <h2>Refresh for New Dog </h2>
              <img src={dog} alt='its a dog'/>
         </div>
     )

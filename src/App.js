@@ -4,17 +4,17 @@ import { Route, NavLink } from 'react-router-dom';
 
 import Home from './Home';
 import AddDog from './AddDog';
+import './App.css';
 
 const App = () => {
   return (
     <div className='app'>
-
       <nav>
-        <h1>This is the header</h1>
         <div className='nav-links'>
-          <NavLink exact to='/'>Home</NavLink>
-          <NavLink exact to='/add-dog'>Add Your Dog</NavLink>
+          <NavLink className='link' exact to='/'>Home</NavLink>
+          <NavLink className='link' exact to='/add-dog'>Add Your Dog</NavLink>
         </div>
+        <h1>Doggo Wisdom </h1>
       </nav>
 
         <Route exact path='/'>
